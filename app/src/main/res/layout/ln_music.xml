@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ln_music_choose"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="4"
+    android:gravity="center_vertical"
+    android:layout_gravity="bottom"
+    android:orientation="vertical"
+    style="@style/Animation.Design.BottomSheetDialog"
+    android:background="@drawable/bg_music_choose">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="Music players"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+
+        />
+    <LinearLayout
+        android:id="@+id/spotify"
+        android:layout_marginVertical="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:gravity="center_vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Spotify"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="#fff"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/soundcloud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:layout_marginVertical="10dp"
+        android:gravity="center_vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SoundCloud"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="#fff"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/nhaccuatui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:gravity="center_vertical"
+        android:layout_marginVertical="10dp"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nhaccuatui"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="#fff"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ytmusic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:layout_marginVertical="10dp"
+        android:gravity="center_vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="YT Music"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="#fff"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/keeng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:gravity="center_vertical"
+        android:layout_marginVertical="10dp"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Keeng"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="#fff"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pimusic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:gravity="center_vertical"
+        android:layout_marginVertical="10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pi Music Player"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="#fff"
+            />
+    </LinearLayout>
+
+</LinearLayout>

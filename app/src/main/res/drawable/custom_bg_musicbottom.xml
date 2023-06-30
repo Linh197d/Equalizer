@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/shadow"
+        />
+
+    <item
+       >
+        <shape >
+
+            <solid
+                android:color="#1D1D1D"/>
+            <corners
+                android:radius="8dp"/>
+
+        </shape>
+    </item>
+    <item
+        android:start="2dp"
+        android:bottom="2dp"
+        android:top="2dp"
+        android:end="2dp">
+        <shape
+
+            >
+
+            <corners
+                android:radius="8dp"/>
+           <gradient
+               android:startColor="#6DEDF7"
+            android:endColor="#00A3FF" />
+        </shape>
+    </item>
+    <item
+        android:start="3dp"
+        android:bottom="3dp"
+        android:top="3dp"
+        android:end="3dp">
+        <shape >
+
+            <solid
+                android:color="#1D1D1D"/>
+            <corners
+                android:radius="8dp"/>
+
+        </shape>
+    </item>
+</layer-list>

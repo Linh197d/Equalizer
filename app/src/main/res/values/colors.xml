@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="secondaryColor">#4caf50</color>
+    <color name="primaryColor">#212121</color>
+    <color name="primaryLightColor">#313131</color>
+    <color name="primaryDarkColor">#101010</color>
+    <color name="playingCardColor">#444caf50</color>
+    <color name="textColor">#FAFAFA</color>
+    <color name="colorWindowBackground">#000</color>
+    <color name="pink">#E91E63</color>
+    <color name="gray">#CCBFBF</color>
+    <color name="white">#fff</color>
+    <color name="xam">#9E9797</color>
+
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Equalizer</string>
+    <string name="show_eq_dialog">Show EQ Dialog</string>
+    <string name="eq">Equalizer</string>
+    <string name="channel_name" translatable="false">Channel</string>
+    <string name="channel_description" translatable="false">Channel iss this</string>
+</resources>
